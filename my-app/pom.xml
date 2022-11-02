@@ -41,7 +41,7 @@
   <build>
     <plugins>
         <!--kjrnk-->
-<!--      <plugin>
+      <plugin>
 	<groupId>org.codehaus.mojo</groupId>
 	<artifactId>exec-maven-plugin</artifactId>
 	<version>1.2.1</version>
@@ -58,7 +58,7 @@
 	    <argument>argument1</argument>
 	  </arguments>
 	</configuration>
-      </plugin>-->
+      </plugin>
       <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-shade-plugin</artifactId>
@@ -93,7 +93,7 @@
           </executions>
       </plugin>
       <!--cnfjdn-->
-<!--      <plugin>
+     <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>2.3.2</version>
           <configuration>
@@ -109,7 +109,7 @@
                   <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
               </compilerArgs>
           </configuration>
-      </plugin>-->
+      </plugin>
     </plugins>
   </build>
 </project>
