@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file my-app/pom.xml
       
     - name: Build Docker Image
-      run: Docker build image sarihoffman/maven-hello-world
+      run: docker image build -t sarihoffman/maven-hello-world .
      
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
