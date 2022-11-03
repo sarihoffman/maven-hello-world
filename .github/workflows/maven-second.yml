@@ -45,4 +45,5 @@ jobs:
       run: docker push sarahofman/maven-hello-world
       
     - name: Run
-      run: docker run sarahofman/maven-hello-world:latest
+      run: ls
+#       run: docker run sarahofman/maven-hello-world:latest
