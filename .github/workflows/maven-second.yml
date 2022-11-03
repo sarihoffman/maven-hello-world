@@ -39,6 +39,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
-        push: true 
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/maven-hello-world 
+#         push: true 
+#         tags: ${{ secrets.DOCKERHUB_USERNAME }}/maven-hello-world 
       
