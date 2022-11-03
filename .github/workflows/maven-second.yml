@@ -43,7 +43,7 @@ jobs:
 #         tags: ${{ secrets.DOCKERHUB_USERNAME }}/maven-hello-world 
     - name: Push
       run: docker push sarahofman/maven-hello-world
-      
+    - name: Pull
+      run: docker pull sarahofman/maven-hello-world:latest
     - name: Run
-      run: ls
-#       run: docker run sarahofman/maven-hello-world:latest
+      run: docker run sarahofman/maven-hello-world:latest
