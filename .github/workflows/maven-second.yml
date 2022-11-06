@@ -44,6 +44,7 @@ jobs:
             ls
             mvn -B package --file my-app/pom.xml
             tree
+            rm -r my-app/target
     - name: Build Docker Image
       run: docker image build -t sarahofman/maven-hello-world .
     -
