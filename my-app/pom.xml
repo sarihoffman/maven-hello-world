@@ -7,23 +7,27 @@
     <groupId>com.houari</groupId>
     <artifactId>Calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
-     <!--<url>https://github.com/sarihoffman/maven-hello-world</url>-->
-    <developers>
-<!--        <developer>
+    <name>my-app</name>
+     <url>http://maven.apache.org</url>
+      <distributionManagement>
+    <repository>
+     <id>internal.repo</id>
+     <name>Internal repo</name>
+     <url>https://github.com/sarihoffman/maven-hello-world</url>
+    </repository>
+  </distributionManagement>
+<!--    <developers>
+        <developer>
             <name>sarihoffman</name>
             <email>sh0533135692@gmail.com</email>
             <organization>com.github.sarihoffman</organization>
             <organizationUrl>https://github.com/sarihoffman/maven-hello-world</organizationUrl>
-            <roles>
-                <role>Lead Enterprise Automation Engineer</role>
-            </roles>
-            <timezone>India</timezone>
-        </developer>-->
+        </developer>
     </developers>
-    
+    -->
       <scm>
+          <url>https://github.com/sarihoffman/maven-hello-world</url>
         <connection>scm:git:https://github.com/sarihoffman/maven-hello-world.git</connection>
-        <url>https://github.com/sarihoffman/maven-hello-world</url>
         <tag>maven-hello-world</tag>
     </scm>
     
