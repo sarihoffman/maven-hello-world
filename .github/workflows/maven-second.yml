@@ -38,8 +38,6 @@ jobs:
           mvn 
           mvn -B release:prepare --file pom.xml
           mvn -B package --file pom.xml
-          mvn clean
-
           
     - name: Build with Maven 
       run: |
