@@ -33,6 +33,7 @@ jobs:
     - name: update file and push to remote
       run: |
           cd my-app
+          ls target
           git config --global user.name "sarrihoffman"
           git config --global user.email "sh0533135692@gmail.com"
           mvn -B release:prepare --file pom.xml
