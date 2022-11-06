@@ -42,6 +42,7 @@ jobs:
       run: |
             pwd
             ls
+            mvn clean
             mvn -B package --file my-app/pom.xml
             tree
     - name: Build Docker Image
