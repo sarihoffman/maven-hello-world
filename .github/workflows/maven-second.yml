@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: sed
-      run:  sh sed -i 's+my-app-1.0-SNAPSHOT.jar+my-app-1.0.1-SNAPSHOT.jar +g' Dockerfile
+      run:  sed -i 's+my-app-1.0-SNAPSHOT.jar+my-app-1.0.1-SNAPSHOT.jar+g' .
     - name: Build with Maven 
       run: |
             mvn -B package --file my-app/pom.xml
