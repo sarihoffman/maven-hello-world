@@ -42,6 +42,8 @@ jobs:
           
     - name: Build with Maven 
       run: |
+            pwd
+            ls
             mvn -B package --file my-app/pom.xml
             tree
     - name: Build Docker Image
