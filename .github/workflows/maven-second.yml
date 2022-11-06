@@ -59,7 +59,7 @@ jobs:
 
     - name: push-pom
       run: |
-          git add -A
+          git add pom.xml
           git commit -m "Update pom.xml"
           git push
           
